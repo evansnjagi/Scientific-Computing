@@ -18,11 +18,12 @@ def listExpenses(expenses):
 
 # Show total expenses fuction
 def showTotalExpenses(expenses):
-    return sum(map(lambda x: x["amount"]))
+    return sum(map(lambda x: x["amount"], expenses))
 
 # Filter expenses function
 def filterExpenses(expenses, category):
-    return filter(map(lambda x: x["category"]), expenses)
+    filtered = map(lambda x: x['amount'], filter(lambda x: x['category'] == category, expenses))
+    print(f"Category: {category} Amount: {list(filtered)[0]}")
 
 # Main function
 def main():
