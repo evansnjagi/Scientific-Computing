@@ -1,0 +1,14 @@
+This is students tracker project.
+
+Done:
+    1. Implemented different function
+    2. On main function:
+        1. Improving add students record
+
+DONE- 2nd feb 2o26:
+    Add loggings for easy debugging and error tracking.
+    Complete add students record section.
+    
+TODO:
+    Create a function to handle choice one inputs
+    

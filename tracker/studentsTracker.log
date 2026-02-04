@@ -1,0 +1,50 @@
+2026-02-02 06:42:38,707 - DEBUG - root - Started the main program
+2026-02-02 06:43:00,968 - DEBUG - root - 
+Adding a students record section
+2026-02-02 06:43:50,550 - DEBUG - root - 
+Adding a students record section
+2026-02-02 06:45:24,858 - DEBUG - root - Started the main program
+2026-02-02 06:45:27,571 - DEBUG - root - 
+Adding a students record section
+2026-02-02 06:54:02,660 - DEBUG - root - Started the main program
+2026-02-02 06:54:19,204 - DEBUG - root - 
+Adding a students record section
+2026-02-02 06:54:51,971 - DEBUG - root - Added the Evans Maths score as: 45
+2026-02-02 06:55:04,850 - DEBUG - root - Added the Karanja Maths score as: 45
+2026-02-02 06:55:15,263 - DEBUG - root - Added the Josepth Maths score as: 45
+2026-02-02 07:02:20,272 - DEBUG - root - Started the main program
+2026-02-02 07:02:46,117 - DEBUG - root - 
+Adding a students record section
+2026-02-02 07:03:16,857 - DEBUG - root - Added the Evans Maths score as: 23
+2026-02-02 07:03:25,174 - DEBUG - root - Added the James Maths score as: 45
+2026-02-02 07:03:45,656 - DEBUG - root - Handled exception error gracefuly
+2026-02-02 07:07:27,821 - DEBUG - root - Started the main program
+2026-02-02 07:07:37,044 - DEBUG - root - 
+Adding a students record section
+2026-02-02 07:09:21,080 - DEBUG - root - Started the main program
+2026-02-02 07:09:29,335 - DEBUG - root - 
+Adding a students record section
+2026-02-02 07:13:37,205 - DEBUG - root - Started the main program
+2026-02-02 07:13:41,325 - DEBUG - root - Adding a students record section
+2026-02-02 07:14:00,913 - DEBUG - root - Added the Evans Maths score as: 23
+2026-02-02 07:14:00,913 - INFO - root - added students record successfully
+2026-02-02 07:14:09,592 - DEBUG - root - Added the James Maths score as: 45
+2026-02-02 07:14:09,592 - INFO - root - added students record successfully
+2026-02-02 07:14:25,834 - DEBUG - root - Adding a students record section
+2026-02-02 07:14:40,580 - DEBUG - root - Added the Kamau Maths score as: 46
+2026-02-02 07:14:40,580 - INFO - root - added students record successfully
+2026-02-02 07:14:50,317 - DEBUG - root - Handled exception error gracefuly
+2026-02-02 07:15:05,580 - DEBUG - root - Added the Evans Maths score as: 45
+2026-02-02 07:15:05,580 - INFO - root - added students record successfully
+2026-02-02 07:15:08,593 - DEBUG - root - Handle wrong escape key by repromting the user
+2026-02-02 07:20:48,218 - DEBUG - root - Started the main program
+2026-02-02 07:20:50,896 - DEBUG - root - Adding a students record section
+2026-02-02 07:21:38,659 - DEBUG - root - Started the main program
+2026-02-02 07:21:42,314 - DEBUG - root - Adding a students record section
+2026-02-02 07:22:03,908 - DEBUG - root - Added the james English score as: 45
+2026-02-02 07:22:03,909 - INFO - root - added students record successfully
+2026-02-02 07:22:09,371 - DEBUG - root - Handle wrong escape key by repromting the user
+2026-02-02 07:22:41,364 - DEBUG - root - Added the Njoki Njane English score as: 67
+2026-02-02 07:22:41,364 - INFO - root - added students record successfully
+2026-02-02 07:22:52,971 - DEBUG - root - Added the Jacob Ndumia English score as: 56
+2026-02-02 07:22:52,972 - INFO - root - added students record successfully
