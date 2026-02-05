@@ -85,3 +85,58 @@ Adding a students record section
 2026-02-04 15:04:17,718 - DEBUG - root - Adding a students record section
 2026-02-04 15:04:32,061 - DEBUG - root - Added the Evans English score as: 89
 2026-02-04 15:04:43,059 - DEBUG - root - Added the Geo English score as: 90
+2026-02-05 07:47:34,383 - DEBUG - root - Started the main program
+2026-02-05 07:47:41,581 - DEBUG - root - Adding a students record section
+2026-02-05 07:47:45,893 - DEBUG - root - Adding a students record section
+2026-02-05 07:48:58,081 - DEBUG - root - Started the main program
+2026-02-05 07:49:02,516 - DEBUG - root - Adding a students record section
+2026-02-05 07:49:05,040 - DEBUG - root - Adding a students record section
+2026-02-05 07:51:17,817 - DEBUG - root - Started the main program
+2026-02-05 07:51:23,811 - DEBUG - root - Adding a students record section
+2026-02-05 07:51:38,235 - DEBUG - root - Added the Evans Maths score as: 90
+2026-02-05 07:51:41,437 - DEBUG - root - Adding a students record section
+2026-02-05 07:55:49,466 - DEBUG - root - Started the main program
+2026-02-05 07:55:55,963 - DEBUG - root - Adding a students record section
+2026-02-05 07:56:18,051 - DEBUG - root - Added the Evans Karago English score as: 90
+2026-02-05 07:56:29,522 - DEBUG - root - Added the Evans Karago Maths score as: 67
+2026-02-05 07:56:43,769 - DEBUG - root - Added the Evans Karago 69 score as: 69
+2026-02-05 07:56:46,292 - DEBUG - root - Adding a students record section
+2026-02-05 07:58:10,521 - DEBUG - root - Started the main program
+2026-02-05 07:59:01,205 - DEBUG - root - Started the main program
+2026-02-05 07:59:10,431 - DEBUG - root - Adding a students record section
+2026-02-05 07:59:27,887 - DEBUG - root - Added the Evoo Geo score as: 56
+2026-02-05 07:59:37,445 - DEBUG - root - Added the James Geo score as: 67
+2026-02-05 07:59:39,038 - DEBUG - root - Adding a students record section
+2026-02-05 08:01:14,261 - DEBUG - root - Started the main program
+2026-02-05 08:03:07,994 - DEBUG - root - Started the main program
+2026-02-05 08:03:21,673 - DEBUG - root - Adding a students record section
+2026-02-05 08:03:41,515 - DEBUG - root - Added the Evans Geography score as: 98
+2026-02-05 08:03:50,099 - DEBUG - root - Added the Mary Geography score as: 78
+2026-02-05 08:03:52,608 - DEBUG - root - Adding a students record section
+2026-02-05 08:10:32,193 - DEBUG - root - Started the main program
+2026-02-05 08:12:17,549 - DEBUG - root - Started the main program
+2026-02-05 08:12:33,175 - DEBUG - root - Started the main program
+2026-02-05 08:12:40,429 - DEBUG - root - Adding a students record section
+2026-02-05 08:14:02,836 - DEBUG - root - Added the evoo maths score as: 45
+2026-02-05 08:14:04,709 - DEBUG - root - Adding a students record section
+2026-02-05 08:14:18,130 - DEBUG - root - Added the evoo chem score as: 46
+2026-02-05 08:14:30,399 - DEBUG - root - Started the main program
+2026-02-05 08:14:37,927 - DEBUG - root - Started the main program
+2026-02-05 08:14:41,926 - DEBUG - root - Adding a students record section
+2026-02-05 08:15:01,073 - DEBUG - root - Added the Evoo 67 score as: 56
+2026-02-05 08:15:07,742 - ERROR - root - Invalid score type inputed invalid literal for int() with base 10: 'mike'
+2026-02-05 08:15:16,073 - DEBUG - root - Added the Evoo 78 score as: 56
+2026-02-05 08:15:18,956 - DEBUG - root - Adding a students record section
+2026-02-05 08:20:47,511 - DEBUG - root - Started the main program
+2026-02-05 08:20:59,415 - DEBUG - root - Adding a students record section
+2026-02-05 08:21:12,096 - DEBUG - root - Added the Evans Maths score as: 89
+2026-02-05 08:21:27,595 - DEBUG - root - Added the Evans Geo score as: 78
+2026-02-05 08:21:48,693 - DEBUG - root - Adding a students record section
+2026-02-05 08:22:00,533 - DEBUG - root - Added the James Geo score as: 56
+2026-02-05 08:22:10,343 - DEBUG - root - Added the James Item Geo score as: 56
+2026-02-05 08:22:38,592 - DEBUG - root - Adding a students record section
+2026-02-05 08:22:44,906 - DEBUG - root - Adding a students record section
+2026-02-05 08:23:01,547 - DEBUG - root - Added the Michael English score as: 45
+2026-02-05 08:23:09,846 - DEBUG - root - Added the Michael Geo score as: 90
+2026-02-05 08:24:12,563 - DEBUG - root - Started the main program
+2026-02-05 08:24:42,972 - DEBUG - root - Started the main program
