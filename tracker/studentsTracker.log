@@ -48,3 +48,40 @@ Adding a students record section
 2026-02-02 07:22:41,364 - INFO - root - added students record successfully
 2026-02-02 07:22:52,971 - DEBUG - root - Added the Jacob Ndumia English score as: 56
 2026-02-02 07:22:52,972 - INFO - root - added students record successfully
+2026-02-04 13:55:27,435 - DEBUG - root - Started the main program
+2026-02-04 13:55:41,858 - DEBUG - root - Adding a students record section
+2026-02-04 13:56:18,057 - DEBUG - root - Added the Evans English score as: 45
+2026-02-04 13:56:18,057 - INFO - root - added students record successfully
+2026-02-04 13:57:45,384 - DEBUG - root - Started the main program
+2026-02-04 13:57:51,156 - DEBUG - root - Adding a students record section
+2026-02-04 14:42:35,323 - DEBUG - root - Started the main program
+2026-02-04 14:43:10,037 - DEBUG - root - Started the main program
+2026-02-04 14:43:21,336 - DEBUG - root - Adding a students record section
+2026-02-04 14:43:46,171 - ERROR - root - Invalid score type inputed
+2026-02-04 14:44:02,563 - ERROR - root - Invalid score type inputed
+2026-02-04 14:44:13,920 - ERROR - root - Invalid score type inputed
+2026-02-04 14:45:12,710 - DEBUG - root - Started the main program
+2026-02-04 14:45:20,150 - DEBUG - root - Adding a students record section
+2026-02-04 14:45:23,798 - DEBUG - root - Adding a students record section
+2026-02-04 14:45:42,444 - ERROR - root - Invalid score type inputed
+2026-02-04 14:45:58,874 - ERROR - root - Invalid score type inputed
+2026-02-04 14:48:13,289 - DEBUG - root - Started the main program
+2026-02-04 14:48:20,553 - DEBUG - root - Adding a students record section
+2026-02-04 14:48:42,213 - ERROR - root - Invalid score type inputed 'bool' object has no attribute 'append'
+2026-02-04 14:52:25,622 - DEBUG - root - Started the main program
+2026-02-04 14:53:23,619 - DEBUG - root - Adding a students record section
+2026-02-04 14:53:38,731 - DEBUG - root - Added the Evans English score as: 34
+2026-02-04 14:53:51,709 - DEBUG - root - Added the Evans Maths score as: 67
+2026-02-04 14:53:53,539 - DEBUG - root - Adding a students record section
+2026-02-04 14:54:19,553 - ERROR - root - Invalid score input with the error 'str' object has no attribute 'append'.
+2026-02-04 14:57:22,362 - DEBUG - root - Started the main program
+2026-02-04 14:57:28,882 - DEBUG - root - Adding a students record section
+2026-02-04 14:57:47,164 - DEBUG - root - Added the Evans Mathematics score as: 45
+2026-02-04 14:58:03,863 - DEBUG - root - Added the Njagi Mathematics score as: 67
+2026-02-04 14:58:06,382 - DEBUG - root - Adding a students record section
+2026-02-04 15:03:50,537 - DEBUG - root - Started the main program
+2026-02-04 15:03:58,911 - DEBUG - root - Adding a students record section
+2026-02-04 15:04:14,772 - DEBUG - root - Added the Evans Maths score as: 89
+2026-02-04 15:04:17,718 - DEBUG - root - Adding a students record section
+2026-02-04 15:04:32,061 - DEBUG - root - Added the Evans English score as: 89
+2026-02-04 15:04:43,059 - DEBUG - root - Added the Geo English score as: 90

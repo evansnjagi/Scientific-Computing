@@ -37,9 +37,12 @@ def addRecord(students, name, subject, score):
 
 # Print students record function
 def printRecord(students):
-    data = pd.DataFrame(students)
-    print("\n .........Students Record Data.............")
-    print(data)
+    if not students:
+        print("No students records are recorded!")
+    else:
+        data = pd.DataFrame(students)
+        print("\n------------students performance summary------------")
+        print(data.to_string(index=False))
 
 # Compute averange score
 def averageScore(students, filterType):
@@ -127,7 +130,8 @@ def choiceOne(students):
     elif userChoice == "r":
         return True
     else:
-        print("Invalid input character! Try again.")      
+        print("Invalid input character! Try again.")    
+
 # Main function
 def main():
     logging.debug("Started the main program")
@@ -135,11 +139,17 @@ def main():
     students = []
 
     # Envoking the UI function
-    choice = printFace()
-    if choice == "1":
-        choiceOne(students)
-        if choiceOne(students):
-            printFace()
-
+    while True:
+        choice = printFace()
+        if choice == "1":
+            choiceOne(students)
+        # Print record
+        elif choice == "2":
+            printRecord(students)
+        # Quiting
+        elif choice == "q":
+            print("Goodbye!")
+            break
+        
 
 main()

@@ -1,0 +1,32 @@
+Implementation of luhn algorithm used to validate credit card numbers and IMEI
+
+Pseudocode
+BEGIN
+
+GET number 
+
+REVERSE number
+
+IF reversed number is even THEN
+    double every digit
+    IF double is > 9 THEN
+        digit sum = digit double - 9
+        SUM the digit resultant sum
+    END IF
+    SUM all the rest of digits together with checked ones
+END IF
+IF reversed number is odd  THEN
+    SUM reversed number
+END IF
+
+SUM odd and even sums
+
+FIND mod 10 of sum 
+
+IF mod 10 is 0 THEN
+    RETURN VALID
+END IF
+ELSE
+    RETURN INVALID
+
+END
