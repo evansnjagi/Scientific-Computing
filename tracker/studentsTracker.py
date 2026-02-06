@@ -14,9 +14,8 @@ def printFace():
     print("\nChoose an option")
     print("\t1. Add a students record")
     print("\t2. Print all students record")
-    print("\t3. Compute average score")
-    print("\t4. Filter students by 'name' or by 'subject'")
-    print("\t5. Get the highest student")
+    print("\t3. Filter students by 'name' or by 'subject'")
+    print("\t4. Get the highest student")
     print("\tq. quit")
     print("\n")
     choice = input("Enter your choice: ")
@@ -44,7 +43,7 @@ def printRecord(students):
         print(data.to_string(index=False))
 
 # Compute averange score
-def averageScore(students, filterType):
+def averageScore(students, filterType):-
     # Filtering
     filtered = filter(lambda student: student[filterType], students)
 
@@ -53,7 +52,7 @@ def averageScore(students, filterType):
         lambda student: students["score"],
         filtered
     ))
-
+    logging.info(f"Successfully filtered results for type {filterType}")
     # Printing the results
     print(f"\n Average score: {averageScore}")
 
@@ -132,8 +131,25 @@ def choiceOne(students):
         print("Invalid input character! Try again.")    
 
 # Fuction to hundle choice three section.
-
-
+def choiceThree(students):
+    # Get users filter type
+    filterType = input("Enter filter type (subject(s) or students name(n)): ")
+    try:
+        if filterType == "s":
+            name = input("Enter students name to filter: ")
+            if name in students[filterType]:
+                averageScore(students, name)
+            else:
+                print(f"Invalid. {name} is not is the database!")
+        elif filterType == "n":
+            subject = input("enter subject name to filter: ")
+            if subject in students[filterType]:
+                averageScore(students, subject)
+            else:
+                print(f"Invalid! {subject} not in the database!")
+    except Exception as err:
+        print("Invalid filter applied!")
+        logging.error(f"Error happpened {err}")
 # Main function
 def main():
     logging.debug("Started the main program")
@@ -148,6 +164,8 @@ def main():
         # Print record
         elif choice == "2":
             printRecord(students)
+        elif choice == "3":
+            choiceThree(students)
         # Quiting
         elif choice == "q":
             print("Goodbye!")
