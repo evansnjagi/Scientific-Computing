@@ -9,6 +9,7 @@ DONE- 2nd feb 2o26:
     Add loggings for easy debugging and error tracking.
     Complete add students record section.
     
-TODO:
+DONE:
     Create a function to handle choice one inputs
+    Completed choice two section
     

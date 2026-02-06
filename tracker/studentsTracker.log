@@ -140,3 +140,15 @@ Adding a students record section
 2026-02-05 08:23:09,846 - DEBUG - root - Added the Michael Geo score as: 90
 2026-02-05 08:24:12,563 - DEBUG - root - Started the main program
 2026-02-05 08:24:42,972 - DEBUG - root - Started the main program
+2026-02-05 09:11:19,244 - DEBUG - root - Started the main program
+2026-02-05 09:11:22,516 - DEBUG - root - Adding a students record section
+2026-02-06 06:24:39,776 - DEBUG - root - Started the main program
+2026-02-06 06:24:47,844 - DEBUG - root - Adding a students record section
+2026-02-06 06:24:59,843 - DEBUG - root - Added the Evans Maths score as: 56
+2026-02-06 06:25:09,448 - DEBUG - root - Added the Evans Geo score as: 56
+2026-02-06 06:25:19,799 - DEBUG - root - Added the Evans Hist score as: 67
+2026-02-06 06:25:29,424 - DEBUG - root - Added the Evans Chem score as: 89
+2026-02-06 06:25:33,469 - DEBUG - root - Adding a students record section
+2026-02-06 06:25:47,444 - DEBUG - root - Added the Evans Chem score as: 67
+2026-02-06 06:25:57,770 - DEBUG - root - Added the Jane Chem score as: 89
+2026-02-06 06:26:05,661 - DEBUG - root - Added the Michael Chem score as: 78

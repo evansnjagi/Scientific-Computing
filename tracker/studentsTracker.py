@@ -11,17 +11,16 @@ logging.basicConfig(
 )
 # Print function
 def printFace():
-    while True:
-        print("\nChoose an option")
-        print("\t1. Add a students record")
-        print("\t2. Print all students record")
-        print("\t3. Compute average score")
-        print("\t4. Filter students by 'name' or by 'subject'")
-        print("\t5. Get the highest student")
-        print("\tq. quit")
-        print("\n")
-        choice = input("Enter your choice: ")
-        return choice
+    print("\nChoose an option")
+    print("\t1. Add a students record")
+    print("\t2. Print all students record")
+    print("\t3. Compute average score")
+    print("\t4. Filter students by 'name' or by 'subject'")
+    print("\t5. Get the highest student")
+    print("\tq. quit")
+    print("\n")
+    choice = input("Enter your choice: ")
+    return choice
     
 # Add a students recored fuction
 def addRecord(students, name, subject, score):
@@ -41,7 +40,7 @@ def printRecord(students):
         print("No students records are recorded!")
     else:
         data = pd.DataFrame(students)
-        print("\n------------students performance summary------------")
+        print("\n------------students performance data------------")
         print(data.to_string(index=False))
 
 # Compute averange score
@@ -131,6 +130,9 @@ def choiceOne(students):
         return True
     else:
         print("Invalid input character! Try again.")    
+
+# Fuction to hundle choice three section.
+
 
 # Main function
 def main():
