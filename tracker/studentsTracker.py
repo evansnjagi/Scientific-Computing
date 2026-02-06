@@ -43,17 +43,24 @@ def printRecord(students):
         print(data.to_string(index=False))
 
 # Compute averange score
-def averageScore(students, filterType):-
-    # Filtering
-    filtered = filter(lambda student: student[filterType], students)
+def averageScore(students, filterKey, filterValue):
+    # Filtering the list
+    filtered = list(filter(
+        lambda student: student[filterKey] == filterValue,
+        students
+    ))
 
     # Mapping each filtered item to an average score
-    averageScore = sum(map(
-        lambda student: students["score"],
+    averageScore = sum(list(map(
+        lambda student: student["Score"],
         filtered
-    ))
-    logging.info(f"Successfully filtered results for type {filterType}")
+    ))) / len(filtered)
+
+    logging.info(f"Successfully filtered results for type {filterKey}")
     # Printing the results
+    print("------------Filterin summary----------")
+    print(filtered)
+    print("\n")
     print(f"\n Average score: {averageScore}")
 
 # Find the highest scoring student
@@ -133,18 +140,18 @@ def choiceOne(students):
 # Fuction to hundle choice three section.
 def choiceThree(students):
     # Get users filter type
-    filterType = input("Enter filter type (subject(s) or students name(n)): ")
+    filterType = input("Enter filter type (Subject(s) or students Name(n)): ")
     try:
-        if filterType == "s":
-            name = input("Enter students name to filter: ")
-            if name in students[filterType]:
-                averageScore(students, name)
+        if filterType in ["s", "Subject", "subject"]:
+            name = input("Enter filtering student name: ")
+            if name in list(map(lambda student: student["Name"], students)):
+                averageScore(students, "Name", name)
             else:
-                print(f"Invalid. {name} is not is the database!")
-        elif filterType == "n":
-            subject = input("enter subject name to filter: ")
-            if subject in students[filterType]:
-                averageScore(students, subject)
+                print(f"Invalid! {name} not in the database!")
+        elif filterType in ["n", "name", "Name"]:
+            subject = input("Enter subject name to filter: ")
+            if subject in list(map(lambda student: student["Subject"], students)):
+                averageScore(students, "Subject", subject)
             else:
                 print(f"Invalid! {subject} not in the database!")
     except Exception as err:
