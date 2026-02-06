@@ -65,15 +65,21 @@ def averageScore(students, filterKey, filterValue):
 
 # Find the highest scoring student
 def highestScoring(students, subject):
-    # Creating a list of all scores
-    totalScores = students["scores"]
-    highestScore = 0
-    for i in range(len(totalScores)):
-        if highestScore < totalScores[i]:
-            highestScores = totalScores[i]
-    topStudents = [student for student in students[students]["Scores"] == highestScore]
-    print(f"Top student in {subject} is {topStudents} with {highestScore}")
-
+    try:
+        # Creating a list of all scores
+        filterSubject = list(filter(
+            lambda student: students["Subject"] == subject,
+            students
+        ))
+        maxScore = max(list(map(
+            lambda student: student["Score"],
+            filterSubject
+        )))
+        topStudent = [student["Name"] for student in filterSubject if students["Score"] == maxScore]
+        print(f"Top student in {subject} is {topStudent} with {maxScore}")
+    except Exception as err:
+        print("An error has occured")
+        logging.error(f"While computing highest score, this error happend {err}")
 # Choice one function 
 def choiceOne(students):
     logging.debug("Adding a students record section")
@@ -142,13 +148,13 @@ def choiceThree(students):
     # Get users filter type
     filterType = input("Enter filter type (Subject(s) or students Name(n)): ")
     try:
-        if filterType in ["s", "Subject", "subject"]:
+        if filterType in ["n", "Name", "name"]:
             name = input("Enter filtering student name: ")
             if name in list(map(lambda student: student["Name"], students)):
                 averageScore(students, "Name", name)
             else:
                 print(f"Invalid! {name} not in the database!")
-        elif filterType in ["n", "name", "Name"]:
+        elif filterType in ["s", "subject", "Subject"]:
             subject = input("Enter subject name to filter: ")
             if subject in list(map(lambda student: student["Subject"], students)):
                 averageScore(students, "Subject", subject)
@@ -174,6 +180,9 @@ def main():
         elif choice == "3":
             choiceThree(students)
         # Quiting
+        elif choice == "4":
+            subject = input("Enter filtering subject: ")
+            highestScoring(students, subject)
         elif choice == "q":
             print("Goodbye!")
             break

@@ -12,4 +12,8 @@ DONE- 2nd feb 2o26:
 DONE:
     Create a function to handle choice one inputs
     Completed choice two section
-    
+
+TODO:
+    Check the get highest score function.
+    The function should print the student with the highest scores
+    Check the averange, to return results rounded to two decimal places
