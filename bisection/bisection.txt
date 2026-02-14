@@ -4,9 +4,25 @@ Bisection idea:
 
 What to do.
     Create a bisection function.
+    1. root default is None
+    Find the square of the mid point
+    Check if it is withing the needed range
+    2. If the mid is less that the actual number then the mid should be the lower number
+    3. If the mid is greater than number, then mid should be the max number
+    
     Create the main function
         - Inside the main function, validate users input for the bisection function
         - What to validate: 
             1. The input number N should be a real number, if not hundle the error
                 repromt the user till they enter a valid number
             2. The number should be positive, if not raise a value error
+            3. The input iteration I should be lower than 100 and greater that 50,
+                if not so, use the default value 100.
+            4. The iteration should be an iteger, if not use the default value
+                also notify the user that you are using the default value.
+            5. The tolerance should be a positive small number between 1e-7 and 1e-10,
+                if not, use the default value (1e-7)
+        - Envoking the bisect function
+            1. When I is None
+            2. When T is None
+            (Note N will never be None)
