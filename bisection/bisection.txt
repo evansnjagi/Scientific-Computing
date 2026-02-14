@@ -1,0 +1,12 @@
+Bisection idea:
+    If we have f(y) = y^2 - x
+    f(low) < 0 and f(high) > 0 then y^2 = x giving f(y) = 0.
+
+What to do.
+    Create a bisection function.
+    Create the main function
+        - Inside the main function, validate users input for the bisection function
+        - What to validate: 
+            1. The input number N should be a real number, if not hundle the error
+                repromt the user till they enter a valid number
+            2. The number should be positive, if not raise a value error
