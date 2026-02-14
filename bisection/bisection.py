@@ -20,24 +20,25 @@ def bisection(number, iterations = 100, tolerance = 1e-8):
     else:
         root = None
         low = min(2, number)
-        high = min(2, number)
+        high = max(2, number)
 
         # Loop through I number of iteration
         for _ in range(iterations):
-            mid = (low + high) / 2
+            mid = (low + high) / 2.
             midSquare = mid ** 2
 
             # Check if the square is within range
             if abs(midSquare - number) < tolerance:
                 root = mid
+            
             elif midSquare > number:
-                high = midSquare
+                high = mid
             else:
-                low = midSquare
+                low = mid
         if root is None:
             print("The root does not exist. Failed to converge!")
         else:
-            print(f"The root of {number} is: {root}")
+            print(f"The root of {number} is: {round(root, 4)}")
     return root
         
 
@@ -98,6 +99,7 @@ def main():
             print("Out of logspace! Using default value")
             logging.info("Logspace out of range") 
     except ValueError:
+        T = None
         logging.warning("Invalid users input on tolerance",
                         exc_info=True)
         print("Invalid tolerance! It should be of type float!")
@@ -105,12 +107,12 @@ def main():
 
     # Envoking the bisection function
     if I is None and T is None:
-        bisection(number = N, iterations = 100, tolerelance = 1e-8)
+        bisection(number = N, iterations = 100, tolerance = 1e-8)
     elif I is None:
-        bisection(number = N, itolerelance = T)
+        bisection(number = N, tolerance = T)
     elif T is None:
         bisection(number = N, iterations = I)
     else:
-        print("Error!")
+        bisection(number = N, iterations = I, tolerance = T)
 # Envoking the main function
 main()
