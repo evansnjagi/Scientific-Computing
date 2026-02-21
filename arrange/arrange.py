@@ -18,6 +18,9 @@ def arithmeticArranger(problems, showAnswers = False):
         if sign == "+":
             sol = int(num1) + int(num2)
             answers.append(f"{sol:>{width}}")
+        elif sign == "-":
+            sol = int(num1) - int(num2)
+            answers.append(f"{sol:>{width}}")
         else:
             return "Error, sign not include!"
 
@@ -35,7 +38,7 @@ def arithmeticArranger(problems, showAnswers = False):
 
 # The main function
 def main():
-    problems = input("Enter: ")
+    problems = ["23 + 300", "389 - 10"]
     print(arithmeticArranger(problems, True))
 
 main()
